@@ -1,7 +1,7 @@
 from __future__ import print_function, division
 from builtins import range, input
-#  Note: you may need to update your version of future
-#  sudo pip install -U future
+# Note: you may need to update your version of future
+# sudo pip install -U future
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 from util import getData
 
 label_map = ['Anger', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
-
 
 def main():
     X, Y = getData(balance_ones=False)
@@ -29,7 +28,6 @@ def main():
 
 if __name__ == '__main__':
     main()
-
 
 
 
